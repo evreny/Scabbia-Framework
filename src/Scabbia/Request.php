@@ -257,7 +257,7 @@ class Request
         if (!is_string($uString)) {
             return $uString;
         }
-
+   
         return str_replace(
             array(
                 '<',
